@@ -1,0 +1,236 @@
+/*header*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+     max-width: 1200px;
+    margin: auto;
+
+}
+nav h2{
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0;
+}
+nav h2 span{
+    color:orangered
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 45px;
+    margin: 0;
+}
+
+ul a{
+    text-decoration: none;
+    color: #444;
+    font-size: 18px;
+}
+
+.common-button{
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 18px 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor:pointer
+}
+
+/*hero section*/
+.hero-parent{
+    display:flex;
+    justify-content:space-between ;
+    align-items:center;
+    max-width: 1200px;
+    margin:auto;
+    
+}
+.root{
+    background-color: #fcf2ea;
+    width: auto;
+}
+.hero-left h2{
+  font-weight: bold;
+  font-size: 60px;
+}
+.hero-left-p1{
+    font-size:40px;
+    font-weight:600;
+}
+.hero-left-p2{
+    font-size: 15px;
+    font-weight: lighter;
+}
+.outline-button{
+    background-color: white;
+    color: orange;
+    border: none;
+    padding: 18px 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border:solid orange;
+    cursor:pointer;
+}
+.parent-button{
+    margin-top: 12px;
+    gap:3px
+}
+img{
+    width:100%; 
+}
+/*about me*/
+.about-me{
+    margin:300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-me .hardy{
+    display:flex;
+    gap:20px;
+}
+.about-me .info{
+    font-size: 15px;
+    
+}
+.about-me .info span{
+    display: block;
+    text-align: center;
+}
+.i-do{
+     margin:300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icons img{
+    width:30px;
+    height: auto;
+}
+.icons{
+    margin:60px;
+    display: flex;
+    gap:20px;
+    
+}
+.skill{
+    margin:5px;
+    border:solid#fdfcfb
+}
+/* Resume Section Styling */
+.section-title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.resume {
+    padding: 80px 0;
+}
+
+.resume-container {
+    display: flex;
+    gap: 50px; 
+}
+
+.resume-column {
+    flex: 1; 
+}
+
+.resume-column-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.experience-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.experience-sub-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 15px;
+}
+
+.experience-description {
+    color: #757575;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+hr {
+    margin: 30px 0;
+    border: none;
+    border-top: 1px solid #d1d1d1;
+}
+
+.download-cv {
+    text-align: center;
+    margin-top: 50px;
+}
+.foot img{
+    width: 30px;
+}
+.foot{
+    
+     text-align: center;
+     font-size: 20px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: #f6ede3;
+     gap:50px;
+}
+.foot .left-foot{
+    text-align: center;
+    margin: 100px;
+    padding:100px;
+}
+.foot .right-foot{
+     text-align: center;
+    margin: 100px;
+    padding:100px;
+}
+.foot .right-foot .message-box{
+    display:flex;
+    flex-direction: column; 
+    gap:5px;
+   
+    
+}
+.foot .right-foot .message-box{
+    display:flex;
+    flex-direction: column; 
+    gap:5px;
+    
+    
+}
+.foot .right-foot .message-box input,textarea{
+    width:100%;
+    height: auto;
+    padding: 15px 18px;   
+    font-size: 20px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    border:none;
+    outline: none;
+    background-color: whitesmoke;
+}
+.foot .right-foot .submit{
+    text-align: left;
+}
